@@ -1,14 +1,260 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>THAU</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+        <link rel="stylesheet" href="custom.css" />
+    </head>
+    <body class="bg-grey-50">
+        <nav class="navbar navbar-expand-lg sticky-top py-0 bg-grey-50">
+            <div class="container-lg bg-blue px-4 py-3">
+                <a class="navbar-brand fs-4 text-light" href="#company">
+                    <img src="images/thau-logo-white-solid.png" alt="Thau Technology" height="40" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav me-2">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-light" href="#">PURPOSE</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#services">SERVICES</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-light" href="#">ARTICLES</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div>
+                            <a
+                                class="btn btn-sm btn-outline-light me-lg-3"
+                                href="https://www.linkedin.com/company/thautech"
+                                target="_blank"
+                                role="button">
+                                <i class="bi bi-linkedin me-1"></i>
+                                <span>thautech</span>
+                                <!-- <span class="badge text-bg-secondary">292</span> -->
+                            </a>
+                        </div>
+                        <div>
+                            <a
+                                class="btn btn-sm btn-outline-light mt-3 mt-lg-0"
+                                href="https://github.com/thautech"
+                                target="_blank"
+                                role="button">
+                                <i class="bi bi-github me-1"></i>
+                                <span>thautech</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-<head>
-	<title>THAU</title>
-</head>
+        <div class="container-lg">
+            <!-- COMPANY -->
+            <section id="company" class="row align-items-center bg-blue text-light mt-2">
+                <div class="col-6 p-5">
+                    <div>
+                        <h1>DATA DRIVEN</h1>
+                        <h1>TECHNOLOGY TO</h1>
+                        <h1>BOOST EVOLUTION</h1>
+                        <p class="fs-4 lead mt-4">
+                            We develop software to manage information in the cloud for intelligent
+                            analytics that discover opportunities to improve existing processes and
+                            create innovative knowledge-driven businesses.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 p-5">
+                    <div class="vstack gap-5">
+                        <div>
+                            <h4><span class="badge bg-grey-100 text-blue">DATA SCIENCE</span></h4>
+                            <p class="fs-5 lead">
+                                We create algorithms that learn from data and evolve with each
+                                interaction. Using cloud services we analyze information to empower
+                                decisions.
+                            </p>
+                        </div>
+                        <div>
+                            <h4>
+                                <span class="badge bg-grey-100 text-blue"
+                                    >SOFTWARE DEVELOPMENT</span
+                                >
+                            </h4>
+                            <p class="fs-5 lead">
+                                Our mobile apps and web systems work on any device. We unite a
+                                outstanding user experience with high security and flexibility at
+                                scale.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-<body>
+            <!-- DATA ENGINEERING -->
+            <section id="services" class="row bg-grey-100 mt-2">
+                <div class="col-6 p-5">
+                    <div>
+                        <h2 class="text-blue">DATA ENGINEERING</h2>
+                        <p class="fs-5 lead mt-4">
+                            We believe that business data analytics allows companies to identify new
+                            opportunities, develop smarter strategies and more efficient operations:
+                        </p>
+                        <ul>
+                            <li>Better and faster decisions</li>
+                            <li>New, more profitable products</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 p-5">
+                    <img
+                        src="images/service-analytics.png"
+                        alt="Data Analytics"
+                        class="img-fluid" />
+                </div>
+            </section>
 
-	<h1>Thau Tecnologia Ltda</h1>
+            <!-- ARTIFICIAL INTELLIGENCE -->
+            <section class="row justify-content-between bg-light mt-2">
+                <div class="col-5 p-5">
+                    <img
+                        src="images/service-intelligence.png"
+                        alt="Artificial Intelligence"
+                        class="img-fluid" />
+                </div>
+                <div class="col-6 p-5">
+                    <div>
+                        <h2 class="text-blue">ARTIFICIAL INTELLIGENCE</h2>
+                        <p class="fs-5 lead mt-4">
+                            We strive to learn more in relation to customers in each project and we
+                            think that our systems should be able to do the same, whenever possible.
+                        </p>
+                        <p class="fs-5 lead mt-4">
+                            We know how to build programs that have the ability to analyze stored
+                            information and learn from users' behavior, evolving over time.
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-</body>
+            <!-- SOFTWARE DEVELOPMENT -->
+            <section class="row justify-content-between bg-grey-100 mt-2">
+                <div class="col-6 p-5">
+                    <div>
+                        <h2 class="text-blue">SOFTWARE DEVELOPMENT</h2>
+                        <p class="fs-5 lead mt-4">
+                            We design and build connected apps that work on any device and
+                            everywhere. With our technology it is possible to synchronize
+                            information instantly, send notifications, integrate location, payment,
+                            tax and other services:
+                        </p>
+                        <ul>
+                            <li>Progressive and scalable web platforms</li>
+                            <li>Mobile applications for all systems</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-5 p-5">
+                    <img
+                        src="images/service-development.png"
+                        alt="Software Development"
+                        class="img-fluid" />
+                </div>
+            </section>
 
+            <!-- CLOUD INFRASTRUCTURE -->
+            <section class="row justify-content-between bg-light mt-2">
+                <div class="col-5 p-5">
+                    <img
+                        src="images/service-infrastructure.png"
+                        alt="Cloud Infrastructure"
+                        class="img-fluid" />
+                </div>
+                <div class="col-6 p-5">
+                    <div>
+                        <h2 class="text-blue">CLOUD INFRASTRUCTURE</h2>
+                        <p class="fs-5 lead mt-4">
+                            We understand that cloud computing performance coupled with service
+                            flexibility and cost competitiveness is a strategic factor for modern
+                            digital business. In each project, we carefully architect the structure
+                            of the system, focused on growth and security of the business.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section id="contact" class="row justify-content-between bg-grey-700 mt-2">
+                <div class="col-4 p-5">
+                    <h4 class="text-grey-50 fw-bold">ABOUT</h4>
+                    <p class="text-grey-50 mt-3">
+                        Our purpose is to make the world a better place through technology. We
+                        believe that information and systems are drivers of smarter attitudes. We
+                        are a lean-agile company that operates globally online.
+                    </p>
+                </div>
+                <div class="col-4 p-5">
+                    <h4 class="text-grey-50 fw-bold">LINKS</h4>
+                    <div class="vstack gap-3 mt-3">
+                        <!-- <div>
+                            <a class="btn btn-success" href="#" role="button">WORK WITH US</a>
+                        </div> -->
+                        <a class="text-decoration-none text-grey-50" href="#"> Privacy Policy </a>
+                        <a class="text-decoration-none text-grey-50" href="#"> Terms of Use </a>
+                    </div>
+                </div>
+                <div class="col-4 p-5">
+                    <h4 class="text-grey-50 fw-bold">CONTACT</h4>
+                    <div class="vstack gap-3 mt-3">
+                        <a class="text-decoration-none text-grey-50" href="#">
+                            <i class="bi bi-envelope me-1"></i>
+                            <span>info@thau.tech</span>
+                        </a>
+                        <a class="text-decoration-none text-grey-50" href="#">
+                            <i class="bi bi-whatsapp me-1"></i>
+                            <span>+55 31 9 8500 1010</span>
+                        </a>
+                        <a class="text-decoration-none text-grey-50" href="#">
+                            <i class="bi bi-geo-alt me-1"></i>
+                            <span>Belo Horizonte, Brazil</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <footer class="row justify-content-between bg-grey-900 mt-2">
+                <div class="col px-5 py-3">
+                    <h6 class="fw-bold m-0 text-grey-50">THAU © 2023</h6>
+                </div>
+            </footer>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    </body>
 </html>
